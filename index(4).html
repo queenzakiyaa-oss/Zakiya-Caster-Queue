@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#060816">
+    <title>Zakiya Caster — Live Queue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
+    <div class="grid-overlay"></div>
+
+    <div class="app-shell">
+
+        <header class="topbar">
+            <div class="brand-wrap">
+                <div class="brand-mark">ZC</div>
+                <div>
+                    <div class="brand-name">ZAKIYA <span>CASTER</span></div>
+                    <div class="brand-sub">OFFICIAL LIVE QUEUE</div>
+                </div>
+            </div>
+
+            <div class="live-pill">
+                <span class="live-dot"></span>
+                LIVE SYSTEM
+            </div>
+        </header>
+
+        <main>
+
+            <section class="hero">
+                <div class="eyebrow">
+                    <span></span>
+                    REALTIME QUEUE SYSTEM
+                    <span></span>
+                </div>
+
+                <h1>
+                    CEK ANTRIAN
+                    <span>SECARA REALTIME</span>
+                </h1>
+
+                <p>
+                    Pantau giliran kamu dengan tampilan live dari Zakiya Caster.
+                </p>
+            </section>
+
+            <section class="status-grid">
+
+                <article class="serving-card">
+                    <div class="card-topline">
+                        <span>NOW SERVING</span>
+                        <div class="status-chip">
+                            <i></i>
+                            LIVE
+                        </div>
+                    </div>
+
+                    <div class="serving-number">#---</div>
+
+                    <div class="serving-info">
+                        <div>
+                            <small>NAMA</small>
+                            <strong>Belum ada antrian</strong>
+                        </div>
+
+                        <div class="serving-badge">
+                            MENUNGGU
+                        </div>
+                    </div>
+                </article>
+
+                <article class="mini-card">
+                    <div class="mini-label">TOTAL ANTRIAN</div>
+                    <div class="mini-value">0</div>
+                    <div class="mini-desc">Orang dalam daftar</div>
+                </article>
+
+                <article class="mini-card">
+                    <div class="mini-label">STATUS SISTEM</div>
+                    <div class="mini-value online">ONLINE</div>
+                    <div class="mini-desc">Update otomatis realtime</div>
+                </article>
+
+            </section>
+
+            <section class="queue-check-card">
+
+                <div class="section-heading">
+                    <div>
+                        <div class="section-kicker">QUEUE CHECKER</div>
+                        <h2>Cari nomor antrian kamu</h2>
+                    </div>
+
+                    <div class="queue-icon">#</div>
+                </div>
+
+                <p class="section-copy">
+                    Masukkan nomor yang diberikan langsung oleh Zakiya Caster.
+                </p>
+
+                <div class="search-panel">
+                    <div class="input-wrap">
+                        <span class="input-prefix">#</span>
+                        <input
+                            type="number"
+                            id="queueInput"
+                            placeholder="Contoh: 12"
+                            min="1"
+                            inputmode="numeric"
+                        >
+                    </div>
+
+                    <button id="checkButton">
+                        <span>CEK ANTRIAN</span>
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+
+                <div id="result"></div>
+            </section>
+
+            <section class="queue-section">
+
+                <div class="queue-header">
+                    <div>
+                        <div class="section-kicker">LIVE QUEUE</div>
+                        <h2>Daftar Antrian</h2>
+                    </div>
+
+                    <div class="queue-count">
+                        <span>0</span>
+                        ORANG
+                    </div>
+                </div>
+
+                <div class="queue-list">
+
+                    <div class="queue-row">
+                        <div class="queue-index">#001</div>
+
+                        <div class="queue-person">
+                            <strong>Belum ada data</strong>
+                            <span>Menunggu antrian ditambahkan admin</span>
+                        </div>
+
+                        <div class="queue-state waiting">
+                            <span></span>
+                            MENUNGGU
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div>
+                <strong>ZAKIYA CASTER</strong>
+                <span>LIVE QUEUE SYSTEM</span>
+            </div>
+
+            <div class="footer-note">
+                Realtime • Secure • Official
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
