@@ -23,15 +23,14 @@ import {
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBS1EibPsFe5MpY8Va0bAqza5mg0CS5ip8",
-    authDomain: "zakiya-caster-queue.firebaseapp.com",
-    projectId: "zakiya-caster-queue",
-    storageBucket: "zakiya-caster-queue.firebasestorage.app",
-    messagingSenderId: "131113806402",
-    appId: "1:131113806402:web:87abeb6167bdd15d741bdb",
-    measurementId: "G-J7QSMZRM84"
+  apiKey: "AIzaSyBS1EibPsFe5MpY8VaObAqza5mgOCS5ip8",
+  authDomain: "zakiya-caster-queue.firebaseapp.com",
+  projectId: "zakiya-caster-queue",
+  storageBucket: "zakiya-caster-queue.firebasestorage.app",
+  messagingSenderId: "131113806402",
+  appId: "1:131113806402:web:87abeb6167bdd15d741bdb",
+  measurementId: "G-J7QSMZRM84"
 };
-
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
